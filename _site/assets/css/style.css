@@ -18,7 +18,7 @@ education { font-weight: 500; font-size: 115%; }
 
 papertitle { font-weight: 600; font-size: 100%; }
 
-@media (prefers-color-scheme: dark) { body { background-color: #20212b; color: #dadbdf; } autocolor { color: #dadbdf; } lightonly { visibility: hidden; } darkonly { visibility: visible; } papertitle { color: #eeeff0; } }
+@media (prefers-color-scheme: dark) { body { background-color:#FFFFFF; color: #dadbdf; } autocolor { color: #dadbdf; } lightonly { visibility: hidden; } darkonly { visibility: visible; } papertitle { color: #eeeff0; } }
 
 .image { border-radius: 0.35em; border: 0; display: inline-block; position: relative; }
 
