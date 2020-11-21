@@ -51,8 +51,8 @@ layout: homepage
   <br>
   Singapore, April 2019 [[Slides](https://people.mpi-inf.mpg.de/~yaliu/files/meta-transfer-learning-slides.pdf)]
 
-## Services
+## Volunteer Activities
 
-- Co-organizer: [ACM MM Asia 2020](https://mmasia2020.org/).
-- Conference Reviewers: [NeurIPS 2020](https://neurips.cc/Conferences/2020), and [CVPR 2020](http://cvpr2020.thecvf.com/).
-- Journal Reviewers: [T-PAMI](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34), and [IJCV](https://www.springer.com/journal/11263).
+- Reviewer: [Machine Learning and the Physical Sciences 2020](https://ml4physicalsciences.github.io/2020/).
+- Reviewer: [Machine Learning and the Physical Sciences 2010](https://ml4physicalsciences.github.io/2019/).
+- [AnitaB] AI Committee Member since July 2019 (https://anitab.org/).
