@@ -1,0 +1,70 @@
+I"X
+<h2 id="research-interests">Research Interests</h2>
+
+<ul>
+  <li><strong>Deep Learning, Computer Vision</strong></li>
+</ul>
+
+<h2 id="news">News</h2>
+
+<ul>
+  <li><strong>[October 2020]</strong> Got a second author journal paper accepted to <a href="https://www.mdpi.com/2072-4292/12/21/3555">Remote Sensing MDPI</a>.</li>
+</ul>
+
+<h2 id="publications">Publications</h2>
+
+<ul>
+  <li>
+    <p><strong>Ice Monitoring in Swiss Lakes from Optical Satellites and Webcams Using Machine Learning</strong>
+<br />
+Manu Tom, <strong>Rajanie Prabha</strong>, Tianyu Wu, Emmanuel Baltsavias, Laura Leal-Taixe, Konrad Schindler
+<br />
+<strong>Remote Sensing MDPI</strong>, Journal Paper, October 2020.
+<br />
+[<a href="https://www.mdpi.com/2072-4292/12/21/3555">PDF</a>]  <strong><i style="color:#e74d3c">Oral Presentation</i></strong></p>
+  </li>
+  <li>
+    <p><strong>Lake Ice Monitoring with Webcams and Crowd-Sourced Images</strong>
+<br />
+<strong>Rajanie Prabha</strong> , Manu Tom, Mathias Rothermel, Emmanuel Baltsavias, Laura Leal-Taixe, Konrad Schindler
+<br />
+<strong>ISPRS</strong>, Conference Paper, August 2020.
+<br />
+[<a href="https://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/V-2-2020/549/2020/">PDF</a>] [<a href="https://github.com/czarmanu/deeplab-lakeice-webcams">Code</a>]</p>
+  </li>
+</ul>
+
+<h2 id="selected-talks">Selected Talks</h2>
+
+<ul>
+  <li>
+    <p><strong>Learning to Self-Train for Semi-Supervised Few-Shot Classification</strong>
+<br />
+NeurIPS Official Meetups
+<br />
+Beijing, China, December 2019 [<a href="https://people.mpi-inf.mpg.de/~yaliu/files/learning-to-self-train-slides.pdf">Slides</a>]</p>
+  </li>
+  <li>
+    <p><strong>Multi-Class Incremental Learning</strong>
+<br />
+School of Computer Science and Engineering, Nanyang Technological University
+<br />
+Singapore, July 2019 [<a href="https://people.mpi-inf.mpg.de/~yaliu/files/multi-class-incremental-learning.pdf">Slides</a>]</p>
+  </li>
+  <li>
+    <p><strong>Meta-Transfer Learning for Few-Shot Learning</strong>
+<br />
+School of Computing, National University of Singapore
+<br />
+Singapore, April 2019 [<a href="https://people.mpi-inf.mpg.de/~yaliu/files/meta-transfer-learning-slides.pdf">Slides</a>]</p>
+  </li>
+</ul>
+
+<h2 id="volunteer-activities">Volunteer Activities</h2>
+
+<ul>
+  <li>Reviewer: <a href="https://ml4physicalsciences.github.io/2020/">Machine Learning and the Physical Sciences 2020</a>.</li>
+  <li>Reviewer: <a href="https://ml4physicalsciences.github.io/2019/">Machine Learning and the Physical Sciences 2010</a>.</li>
+  <li>Member since July 2019: <a href="https://anitab.org/">AnitaB Artifical Intelligence Committee</a></li>
+</ul>
+:ET

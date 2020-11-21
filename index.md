@@ -31,19 +31,24 @@ layout: homepage
 
 
 
-## Selected Talks
+## Education
 
-- **Learning to Self-Train for Semi-Supervised Few-Shot Classification**
+- **Swiss Federal Institute of Technology, Zurich, Switzerland**
   <br>
-  NeurIPS Official Meetups
+  Master's thesis under [Prof. Konrad Schindler]() [May 2019-October 2019]
   <br>
-  Beijing, China, December 2019 [[Slides](https://people.mpi-inf.mpg.de/~yaliu/files/learning-to-self-train-slides.pdf)]
 
-- **Multi-Class Incremental Learning**
+- **Technical University of Munich, Germany**
   <br>
-  School of Computer Science and Engineering, Nanyang Technological University
+  Master of Science, Informatics [2017-2019]
+  Thesis Co-supervisor [Prof. Laura Leal-Taxie]()
   <br>
-  Singapore, July 2019 [[Slides](https://people.mpi-inf.mpg.de/~yaliu/files/multi-class-incremental-learning.pdf)]
+
+- **National Institute of Technology, Kurukshetra**
+  <br>
+  Bachelor of Technology, Computer Engineering  [2012-2016]
+  <br>
+  Thesis supervisor [Prof. Mayank Dave]()
 
 - **Meta-Transfer Learning for Few-Shot Learning**
   <br>
@@ -55,4 +60,4 @@ layout: homepage
 
 - Reviewer: [Machine Learning and the Physical Sciences 2020](https://ml4physicalsciences.github.io/2020/).
 - Reviewer: [Machine Learning and the Physical Sciences 2010](https://ml4physicalsciences.github.io/2019/).
-- [AnitaB](https://anitab.org/) Artifical Intelligence Committee Member since July 2019.
+- Member since July 2019: [AnitaB Artifical Intelligence Committee](https://anitab.org/) 
