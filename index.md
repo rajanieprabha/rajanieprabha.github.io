@@ -19,7 +19,7 @@ layout: homepage
   <br>
   **Remote Sensing MDPI**, Journal Paper, October 2020.
   <br>
-  [[PDF](https://www.mdpi.com/2072-4292/12/21/3555)]  <strong><i style="color:#e74d3c">Oral Presentation</i></strong>
+  [[PDF](https://www.mdpi.com/2072-4292/12/21/3555)] 
 
 - **Lake Ice Monitoring with Webcams and Crowd-Sourced Images**
   <br>
