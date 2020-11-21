@@ -62,7 +62,7 @@ email: yourname (at) example.edu
 google_scholar: https://scholar.google.com/
 github_link: https://github.com/yaoyao-liu/minimal-light
 linkedin: https://www.linkedin.com/
-avatar: ./assets/img/avatar.png
+avatar: ./assets/img/profilepic.png
 google_analytics: UA-111540567-4
 favicon: ./assets/img/favicon.png
 favicon_dark: ./assets/img/favicon-dark.png
