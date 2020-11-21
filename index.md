@@ -33,18 +33,18 @@ layout: homepage
 
 ## Education
 
-- **Swiss Federal Institute of Technology, Zurich, Switzerland**
+<i class="fa fa-cloud"></i> **Swiss Federal Institute of Technology, Zurich, Switzerland**
   <br>
   Master's thesis under [Prof. Konrad Schindler]() [May 2019-October 2019]
   <br>
 
-- **Technical University of Munich, Germany**
+<i class="fa fa-cloud"></i> **Technical University of Munich, Germany**
   <br>
   Master of Science, Informatics [2017-2019]
   Thesis Co-supervisor [Prof. Laura Leal-Taxie]()
   <br>
 
-- **National Institute of Technology, Kurukshetra**
+<i class="fa fa-cloud"></i> **National Institute of Technology, Kurukshetra**
   <br>
   Bachelor of Technology, Computer Engineering  [2012-2016]
   <br>
