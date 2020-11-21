@@ -55,4 +55,4 @@ layout: homepage
 
 - Reviewer: [Machine Learning and the Physical Sciences 2020](https://ml4physicalsciences.github.io/2020/).
 - Reviewer: [Machine Learning and the Physical Sciences 2010](https://ml4physicalsciences.github.io/2019/).
-- [AnitaB] AI Committee Member since July 2019 (https://anitab.org/).
+- [AnitaB](https://anitab.org/) Artifical Intelligence Committee Member since July 2019.
