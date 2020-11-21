@@ -50,11 +50,6 @@ layout: homepage
   <br>
   Thesis supervisor [Prof. Mayank Dave]()
 
-- **Meta-Transfer Learning for Few-Shot Learning**
-  <br>
-  School of Computing, National University of Singapore
-  <br>
-  Singapore, April 2019 [[Slides](https://people.mpi-inf.mpg.de/~yaliu/files/meta-transfer-learning-slides.pdf)]
 
 ## Volunteer Activities
 
