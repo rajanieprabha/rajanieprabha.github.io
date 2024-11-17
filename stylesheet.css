@@ -104,10 +104,9 @@ name {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 32px;
 }
-
 .publication {
   display: flex;
-  align-items: flex-start;
+  align-items: center; /* Center align items vertically */
   margin-bottom: 20px;
 }
 
@@ -118,7 +117,9 @@ name {
 
 .publication-details {
   flex: 1;
-  justify-content: center
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center align text vertically */
 }
 
 .publication-details a {
