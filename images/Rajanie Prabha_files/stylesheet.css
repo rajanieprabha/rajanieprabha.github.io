@@ -105,6 +105,34 @@ name {
   font-size: 32px;
 }
 
+.publication {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.publication-figure {
+  max-width: 250px;
+  margin-right: 20px;
+  justify-content: center
+}
+
+.publication-details {
+  flex: 1;
+  justify-content: center
+}
+
+.publication-details a {
+  color: #007bff;
+  text-decoration: none;
+  justify-content: center
+}
+
+.publication-details a:hover {
+  text-decoration: underline;
+  justify-content: center
+}
+
 .one {
   width: 100px;
   height: 100px;
