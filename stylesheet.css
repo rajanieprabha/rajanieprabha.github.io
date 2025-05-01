@@ -186,9 +186,15 @@ body.dark-mode a {
   color: #80cbc4;
 }
 
-body.dark-mode table {
-  background-color: #1e1e1e;
+
+body.dark-mode table,
+body.dark-mode td,
+body.dark-mode th {
+  background-color: #121212; /* or #1e1e1e for contrast */
+  color: #e0e0e0;
+  border-color: #2c2c2c;
 }
+
 
 body.dark-mode img {
   filter: brightness(85%);
@@ -205,5 +211,8 @@ body:not(.dark-mode) a {
 
 body:not(.dark-mode) img {
   filter: none;
+}
+body.dark-mode img {
+  filter: brightness(90%);
 }
 
