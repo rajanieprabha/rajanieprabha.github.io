@@ -13,7 +13,10 @@
   <link rel="icon" type="image/png" href="images/Rajanie_profile.jpg">
 </head>
 
-<body>
+<body class="dark-mode">
+  <button id="dark-mode-toggle" title="Toggle dark/light mode"
+  style="position: fixed; top: 20px; right: 20px; z-index: 1000;">🌞</button>
+
   <table
     style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
     <tbody>
@@ -295,9 +298,10 @@
       </tr>
       <tr>
         <td style="width:100%;vertical-align:middle;padding-left:20px">
-          DeepSolar-3M <br>
+          DeepSolar-3M talks<br>
           <ul>
             <li>at Sustainability Data Science Conference 2025, Stanford Data Science Center</li>
+            <li>at Tackling Climate Change with Machine Learning Workshop, ICLR 2025</li>
           </ul>
           Generative Editing for Adversarial Attacks @ <a href="https://www.eeml.eu/previous-editions/eeml2023">EEML 2023</a> | <a href="data/CS236_Final_Poster.pdf">Poster</a><br>
           Invited Talks @ AnitaB.org, 2021 | <a href="https://github.com/rajanieprabha/talks-webinars/tree/main/AnitaB">Presentations</a>
@@ -354,9 +358,13 @@
 
 
   <br>
-  <align="center"> Copyright &copy Rajanie Prabha 2025 </align>
+  <div style="text-align:center; font-size:small; margin-top:30px;">
+    © Rajanie Prabha <span id="current-year"></span> &nbsp;|&nbsp;
+    <a href="personal.html">Non-academic Space</a>
+    <br>
+    <span style="font-size:smaller;">Last updated: <span id="last-modified"></span></span>
+  </div>
   
-  <a href="personal.html" style="float: right;">Non-academic Space</a>
 
   </p>
   </td>
@@ -366,6 +374,25 @@
   </td>
   </tr>
   </table>
+  <script>
+    // Toggle logic
+    const toggle = document.getElementById('dark-mode-toggle');
+    const body = document.body;
+  
+    toggle.textContent = body.classList.contains('dark-mode') ? '🌞' : '🌓';
+  
+    toggle.addEventListener('click', () => {
+      body.classList.toggle('dark-mode');
+      toggle.textContent = body.classList.contains('dark-mode') ? '🌞' : '🌓';
+    });
+  
+    // Update copyright and date
+    document.getElementById("current-year").textContent = new Date().getFullYear();
+    const options = { year: 'numeric', month: 'long' };
+    document.getElementById("last-modified").textContent =
+      new Date(document.lastModified).toLocaleDateString('en-US', options);
+  </script>
+  
 </body>
 
 </html>

@@ -176,3 +176,34 @@ body {
 span.highlight {
   background-color: #ffffd0;
 }
+
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.dark-mode a {
+  color: #80cbc4;
+}
+
+body.dark-mode table {
+  background-color: #1e1e1e;
+}
+
+body.dark-mode img {
+  filter: brightness(85%);
+}
+
+body:not(.dark-mode) {
+  background-color: white;
+  color: #111;
+}
+
+body:not(.dark-mode) a {
+  color: #007acc;
+}
+
+body:not(.dark-mode) img {
+  filter: none;
+}
+
