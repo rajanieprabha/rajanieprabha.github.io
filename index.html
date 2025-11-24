@@ -15,7 +15,7 @@
 
 <body>
   <button id="dark-mode-toggle" title="Toggle dark/light mode"
-  style="position: fixed; top: 20px; right: 20px; z-index: 1000;">🌞</button>
+  style="position: fixed; top: 20px; right: 20px; z-index: 1000;">🌓</button>
 
   <table
     style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
@@ -385,11 +385,11 @@
     const toggle = document.getElementById('dark-mode-toggle');
     const body = document.body;
   
-    toggle.textContent = body.classList.contains('dark-mode') ? '🌞' : '🌓';
+    toggle.textContent = body.classList.contains('dark-mode') ? '🌓' : '🌞';
   
     toggle.addEventListener('click', () => {
       body.classList.toggle('dark-mode');
-      toggle.textContent = body.classList.contains('dark-mode') ? '🌞' : '🌓';
+      toggle.textContent = body.classList.contains('dark-mode') ? '🌓' : '🌞';
     });
   
     // Update copyright and date
