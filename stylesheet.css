@@ -128,7 +128,8 @@ body {
 }
 
 .publication-figure {
-  max-width: 150px;
+  max-width: 170px;
+  height: auto;
   margin-right: 20px;
 }
 
