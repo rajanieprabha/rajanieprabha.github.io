@@ -1,0 +1,380 @@
+/* ==========================================================
+   Rajanie Prabha — Academic Portfolio
+   Minimal, single-column, sans-serif (Inter)
+   ========================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --max-width: 760px;
+  --text: #1a1a1a;
+  --text-muted: #6b6b6b;
+  --bg: #ffffff;
+  --bg-muted: #fafafa;
+  --accent: #2c5282;
+  --accent-hover: #1a365d;
+  --border: #ececec;
+}
+
+body.dark-mode {
+  --text: #e5e5e5;
+  --text-muted: #9a9a9a;
+  --bg: #0f0f0f;
+  --bg-muted: #1a1a1a;
+  --accent: #93c5fd;
+  --accent-hover: #bfdbfe;
+  --border: #2a2a2a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--text);
+  background: var(--bg);
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 60px 28px 80px 28px;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+/* ========== TYPOGRAPHY ========== */
+name {
+  display: block;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  color: var(--text);
+  margin-bottom: 10px;
+}
+
+heading {
+  display: block;
+  font-size: 17px;
+  font-weight: 600;
+  margin-top: 56px;
+  margin-bottom: 20px;
+  color: var(--text);
+  letter-spacing: -0.1px;
+  scroll-margin-top: 24px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+
+papertitle {
+  display: block;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--text);
+  margin-bottom: 2px;
+}
+
+strong {
+  font-weight: 600;
+  color: var(--text);
+}
+
+em {
+  font-style: italic;
+  color: var(--text-muted);
+  font-size: 14px;
+}
+
+p {
+  margin-bottom: 12px;
+}
+
+/* ========== LINKS ========== */
+a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+a:hover,
+a:focus {
+  color: var(--accent-hover);
+  border-bottom-color: var(--accent-hover);
+  outline: none;
+}
+
+/* ========== HEADER ========== */
+.header {
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+
+.header-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.header-text p {
+  font-size: 15.5px;
+}
+
+.header-photo {
+  flex-shrink: 0;
+  width: 180px;
+}
+
+.header-photo img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  display: block;
+}
+
+.contact {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin-top: 8px;
+}
+
+/* ========== TOP NAV (inline) ========== */
+.top-nav {
+  font-size: 14px;
+  margin: 24px 0 12px 0;
+}
+
+.top-nav a {
+  color: var(--text-muted);
+  margin-right: 16px;
+}
+
+.top-nav a:hover {
+  color: var(--accent);
+  border-bottom-color: transparent;
+}
+
+/* ========== PUBLICATIONS ========== */
+.publication {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 22px;
+  align-items: flex-start;
+}
+
+.publication-figure {
+  flex-shrink: 0;
+  width: 140px;
+  height: auto;
+  border-radius: 3px;
+  object-fit: cover;
+  border: 1px solid var(--border);
+}
+
+.publication-details {
+  flex: 1;
+  font-size: 14.5px;
+  line-height: 1.5;
+  min-width: 0;
+}
+
+.publication-details em {
+  font-size: 13.5px;
+}
+
+.publication-details .award {
+  color: #b45309;
+  font-style: italic;
+  font-size: 13.5px;
+}
+
+body.dark-mode .publication-details .award {
+  color: #fbbf24;
+}
+
+/* ========== EXPERIENCE ========== */
+.experience-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.experience-item {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.experience-logo {
+  flex-shrink: 0;
+  width: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.experience-logo img {
+  max-width: 72px;
+  max-height: 52px;
+  object-fit: contain;
+}
+
+.experience-info {
+  flex: 1;
+}
+
+.experience-info h3 {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0 0 2px 0;
+}
+
+.experience-info .role {
+  font-size: 14px;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+/* ========== SIMPLE LIST ========== */
+.simple-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.simple-list li {
+  margin-bottom: 8px;
+  font-size: 14.5px;
+  line-height: 1.55;
+}
+
+.simple-list li::before {
+  content: "·  ";
+  color: var(--text-muted);
+}
+
+/* ========== DARK MODE TOGGLE ========== */
+#dark-mode-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 100;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  padding: 6px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 6px;
+  color: var(--text-muted);
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+
+#dark-mode-toggle:hover {
+  background: var(--bg-muted);
+  color: var(--text);
+  border-color: var(--text-muted);
+}
+
+/* ========== FOOTER ========== */
+.footer {
+  text-align: center;
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-top: 64px;
+  padding-top: 22px;
+  border-top: 1px solid var(--border);
+}
+
+.footer a {
+  color: var(--text-muted);
+}
+
+.footer a:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+/* ========== PERSONAL PAGE GALLERY ========== */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 22px;
+  margin-top: 24px;
+}
+
+.gallery figure {
+  margin: 0;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 3px;
+  display: block;
+  border: 1px solid var(--border);
+}
+
+.gallery figcaption {
+  font-size: 13px;
+  color: var(--text-muted);
+  font-style: italic;
+  margin-top: 8px;
+  text-align: center;
+}
+
+/* ========== RESPONSIVE ========== */
+@media (max-width: 640px) {
+  body {
+    padding: 44px 20px 60px 20px;
+    font-size: 15.5px;
+  }
+
+  .header {
+    flex-direction: column-reverse;
+    gap: 20px;
+    align-items: flex-start;
+  }
+
+  .header-photo {
+    width: 140px;
+  }
+
+  name {
+    font-size: 26px;
+  }
+
+  heading {
+    font-size: 16px;
+    margin-top: 44px;
+  }
+
+  .publication {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .publication-figure {
+    width: 100%;
+    max-width: 240px;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .top-nav a {
+    margin-right: 12px;
+    display: inline-block;
+    margin-bottom: 4px;
+  }
+}
